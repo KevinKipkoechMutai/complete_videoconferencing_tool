@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import { sideBarLinks } from '@/app/constants'
+import { sideBarLinks } from '@/constants'
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
