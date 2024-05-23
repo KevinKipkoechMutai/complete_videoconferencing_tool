@@ -26,7 +26,6 @@ export default function RootLayout({
       <ClerkProvider
         appearance={{
           layout: {
-            logoImageUrl: '/icons/yoom-logo.svg',
             socialButtonsVariant: 'iconButton'
           },
           variables: {
@@ -37,6 +36,7 @@ export default function RootLayout({
             colorInputText: '#fff'
           }
         }}
+        
       >
         <body className={`${inter.className} bg-dark-2`}>
           {children}
